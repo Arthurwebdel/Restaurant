@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <title>Наш ресторан</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+
+                <div class="logo">
+                    <img src="img/LOGO.png" alt="">
+                </div>
+                <div class="header-menu">
+                    <div class="bar">
+                        <div class="bar-item"></div>
+                        <div class="bar-item"></div>
+                        <div class="bar-item"></div>
+                    </div>
+
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Главня</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Бронь</a>
+                        </ul>
+                    </nav>
+                    <div class="header-right">
+                        <div class="contacts">
+                            <a class="header-phone" href="tel:+9998887654">+999-888-76-54</a>
+                            <div class="contacts-text">
+                                Свяжитесь с нами для
+                                бронирования
+                            </div>
+                        </div>
+                        <div class="header-btn">
+                            <a href="#">ЗАКАЗ СТОЛИКА</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="header-content__text">
+                    <span class="title">Добро пожаловать </span>
+                    <div>В наш ресторан</div>
+                    <span class="title-descr">ДОМ ЛУЧШЕЙ ЕДЫ</span>
+                </div>
+                <div class="header-content__button">
+                    <a href="#">Обзор меню</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about-items">
+                <div class="about-item wow ani animate__animated animate__bounceIn">
+                    <div class="about-img">
+                        <img src="img/dish.png" alt="">
+                    </div>
+                    <div class="about-title">
+                        Магическая <span>Атмосфера</span>
+                    </div>
+                    <div class="about-text">
+                        В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами
+                    </div>
+                </div>
+                <div class="about-item about-item wow ani animate__animated animate__bounceIn" data-wow-delay="0.5s">
+                    <div class="about-img">
+                        <img src="img/dish.png" alt="">
+                    </div>
+                    <div class="about-title">
+                        Лучшее качество <span>Еды</span>
+                    </div>
+                    <div class="about-text">
+                        Качество нашей
+                        Еды - отменное!
+                    </div>
+                </div>
+                <div class="about-item about-item wow ani animate__animated animate__bounceIn" data-wow-delay="1s">
+                    <div class="about-img">
+                        <img src="img/dish.png" alt="">
+                    </div>
+                    <div class="about-title">
+                        Недорогая <span>Еда</span>
+                    </div>
+                    <div class="about-text">
+                        Стоимость нашей Еды
+                        зависит только от ее
+                        количества. Качество
+                        всегда на высоте!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="history">
+        <div class="container">
+            <div class="history-inner">
+                <div class="history-content">
+                    <div class="history-title">
+                        Наша <span>История</span>
+                    </div>
+                    <div class="history-text">
+                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
+                        основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях
+                        километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя
+                        обустровать себе нехитрый быт, добывать и готовить себе еду.
+                    </div>
+                    <div class="history-items">
+                        <div class="item">
+                            <span class="item-num" id="item1" data-num="93">
+                                0
+                            </span>
+
+
+                            <div class="item-text">
+                                Напитки
+                            </div>
+                        </div>
+                        <div class="item">
+                            <span class="item-num" id="item2" data-num="206">
+                                0
+                            </span>
+                            <div class="item-text">
+                                Еда
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <span class="item-num" id="item3" data-num="71">
+                                0
+                            </span>
+                            <div class="item-text">
+                                Закуски
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="history-images">
+                    <div class="history-images_inner">
+                        <img class="history-img_1" src="img/history-img_1.png" alt="">
+                        <img class="history-img_2" src="img/history-img_2.png" alt="">
+                        <img class="history-img_3" src="img/history-img_3.png" alt="">
+                        <img class="history-img_4" src="img/history-img_4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="celebration">
+
+        <div class="container">
+            <div class="celebration-inner">
+                <div class="celebration-descr">
+                    <div class="celebration-title">
+                        Отпразднуйте в одном из
+                        самых лучших ресторанов.
+                    </div>
+                    <div class="celebration-text">
+                        Только в этом месяце бизнес-ланч от 5$
+                    </div>
+                </div>
+                <div class="celebration-btn">
+                    <a href="#">ЗАКАЗ СТОЛИКА</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="dishes">
+        <div class="container">
+            <div class="dishes-title">
+                Наши <span>Блюда</span>
+            </div>
+            <div class="dishes-buttons">
+                <div class="dishes-btn" data-filter=".dishes_1"> Первые блюда</div>
+                <div class="dishes-btn" data-filter=".dishes_2"> Вторые блюда</div>
+                <div class="dishes-btn" data-filter=".salat"> Салаты</div>
+                <div class="dishes-btn" data-filter=".zakuski"> Закуски</div>
+                <div class="dishes-btn" data-filter=".drinks"> Напитки</div>
+                <div class="dishes-btn" data-filter=".dessert"> Десерт</div>
+            </div>
+            <div class="dishes-images">
+                <div class="dishes-images__items mix dishes_1">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/dishes_1/kurinyj_sup_karri_s_risom-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Куриный суп карри с рисом</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/mjasnoj_sup_na_ogurechnom_rassole-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Мясной суп на огуречном рассоле</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/ochen_pitatelnyj_kartofelnyj_sup_s_gribami-recept_.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Очень питательный суп с грибами</h3>
+                        <span class="dishes-images__item-price">7$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/sogrevajushhij_i_prjanyj_kurinyj_bulon-recept_s_fo.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Согревающий и пряный куриный бульон</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/sup_s_krevetkami_i_kapustoj_pak_choj-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Суп с креветками и капустой</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/vkusnyj-domashnij_krem-borshh-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусный домашний борщ</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/vkusnyj_sup_iz_karpa_s_percem-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусный суп из карпа с перцем</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_1/zelenyj_borshh_so_slivkami_na_ovoshhnom_bulone-fot.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Зеленый борщ со сливками на овощном бульоне</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                </div>
+                <div class="dishes-images__items mix dishes_2">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/kurinaja_zapekanka_s_risom-ovoshhami_i_syrom-recep.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Куриная запеканка с рисом, овощами и сыром</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/kurinye_shashlyki_s_percem_i_lukom-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Куриные шашлыки с перцем и луком</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/makarony_v_syrnom_souse_s_kuricej-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Макароны в сырном соусе с курицей</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/ris_po-ispanski_s_kolbasoj_chorizo-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Рис по-испански с колбасой</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/spagetti_s_tykvoj_i_krevetkami-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Спагетти с тыквой и креветками</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/vkusnye_gruzinskie_pelmeni_khinkali-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусные грузинские пельмени хинкали</h3>
+                        <span class="dishes-images__item-price">7$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/zapechennaja_forel_s_ukropom_i_limonom-recept_s_fo.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Запеченая форель с укропом и лимоном</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dishes_2/zapechennye_svinye_rebryshki_s_kartofelem-recept_s.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Запеченые свиные ребрышки с картофелем</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                </div>
+                <div class="dishes-images__items mix salat">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/apelsinovyj_salat_s_kuricej-fenkhelem_i_granatom-r.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Апельсиновый салат с курицей, фенхелем и гранатом</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/prostoj_salat_ajsberg_s_kuricej_i_sousom-recept_s_.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Простой салат айсберг с курицей</h3>
+                        <span class="dishes-images__item-price">3$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/salat_iz_avokado_s_krabovymi_palochkami-recept_s_f.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Салат из авокадо с крабовыми палочками</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/salat_iz_rukkoly_s_rediskoj_v_souse-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Салат из рукколы с редиской в соусе</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/salat_iz_sladkoj_dyni_s_solenym_syrom_feta-recept_.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Салат из сладкой дыни с соленым сыром фета</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/salat_karri_s_kuricej-risom-kukuruzoj_i_ananasom-r.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Салат карри с курицей, рисом, кукурузой и ананасом</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/salat/syrnyj_salat_s_risom_i_jajcom-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Сырный салат с рисом и яйцом</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/salat/vkusnyj_i_prostoj_salat_s_krabovymi_palochkami-rec.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусный и простой салат с крабовыми палочками</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                </div>
+                <div class="dishes-images__items mix zakuski">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/baget_s_syrom_i_kopchenym_lososem-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Багет с сыром и копченым лососем</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/govjazhi_mjasnye_shariki_s_koricej-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Говяжие мясные шарики с корицей</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/grebeshki-zavernutye_v_vetchinu-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Гребешки завернутые в ветчину</h3>
+                        <span class="dishes-images__item-price">7$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/ruletiki_iz_vetchiny_s_jajcom_i_syrom-recept_s_fot.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Рулетики из ветчины с яйцом и сыром</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/seld_s_majoranom_i_karri_v_lnjanom_masle-recept_s_.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Сельдь с майораном и карри в льняном масле</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/seledka_s_jablokom_i_lukom_v_souse-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Селедка с яблоком и луком в соусе</h3>
+                        <span class="dishes-images__item-price">7$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/sosiski_v_teste_v_domashnikh_uslovijakh-recept_s_f.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Сосиски в тесте</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/zakuski/sous_iz_jogurta_i_majoneza_s_gribami_i_lukom-recep.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Соус из йогурта и майонеза с грибами и луком</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                </div>
+                <div class="dishes-images__items mix drinks">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/vkusnyj-gorjachij_shokolad_dlja_zimnikh_vecherov-r.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусный горячий шоколад для зимних вечеров</h3>
+                        <span class="dishes-images__item-price">10$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/belyj-gorjachij_shokolad_s_marcipanom-recept_s_fot.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Белый горячий шоколад с марципаном</h3>
+                        <span class="dishes-images__item-price">7$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/domashnee_vino_iz_risa_i_sushenykh_fruktov-recept_.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Домашнее вино из риса и сушеных фруктов</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/kofe_so_slivkami_i_jaichnym_mussom-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Кофе со сливками и яичным муссом</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/drinks/limonnaja_nastojka_na_vodke-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Лимонная настойка на водке</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/drinks/pina_kolada_bezalkogolnaja-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Пина колада безалкогольная</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/sogrevajushhij_chaj_s_gibiskusom-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Согревающий чай</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/drinks/vkusnaja-kljukvennaja_nastojka_na_vodke_i_spirtu-r.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Вкусная клюквенная настойка на водке</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                </div>
+                <div class="dishes-images__items mix dessert">
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/bystryj_desert_s_chia_i_fruktami-recept_s_foto.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Десерт с фруктами</h3>
+                        <span class="dishes-images__item-price">8$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/domashnee-vanilnoe_morozhenoe_luchshe_chem_iz_maga.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Ванильное мороженное</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/domashnee_morozhenoe_s_orekhami-izjumom_i_kuragoj-.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Мороженное с орехами, изюмом и курагой</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/konfety_rafaehllo_v_domashnikh_uslovijakh-recept_s.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Конфеты "Рафаэлло"</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/krasochnoe_zhele_v_stakane_s_fruktami-recept_s_fot.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Красочное желе в стакане с фруктами</h3>
+                        <span class="dishes-images__item-price">3$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/dessert/orekhovye_trjufelja_s_romom-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Ореховые трюфеля с ромом</h3>
+                        <span class="dishes-images__item-price">6$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img"
+                            src="img/dessert/sladkie_shariki_s_shokoladom_i_kokosom-recept_s_fo.jpg" alt="">
+                        <h3 class="dishes-images__item-title">Сладкие шарики с шоколадом и кокосом</h3>
+                        <span class="dishes-images__item-price">5$</span>
+                    </div>
+                    <div class="dishes-images__item">
+                        <img class="dishes-images__img" src="img/dessert/vafli_s_molochnoj_massoj-recept_s_foto.jpg"
+                            alt="">
+                        <h3 class="dishes-images__item-title">Вафли с молочной массой</h3>
+                        <span class="dishes-images__item-price">4$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider">
+
+        <div class="container">
+            <div class="slider-inner">
+                <div class="slider-item">
+
+                    <div class="slider-item_content">
+                        <div class="slider-item_text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!!
+                            Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан
+                            своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </div>
+                        <div class="slider-item_img">
+                            <img src="img/visitor-img.png" alt="">
+
+                        </div>
+                        <div class="photo-visiter_text">
+                            Посетитель
+                        </div>
+                        <div class="visiter-name">
+                            Николай
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-item">
+
+                    <div class="slider-item_content">
+                        <div class="slider-item_text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!!
+                            Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан
+                            своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </div>
+                        <div class="slider-item_img">
+                            <img src="img/visitor-img.png" alt="">
+
+                        </div>
+                        <div class="photo-visiter_text">
+                            Посетитель
+                        </div>
+                        <div class="visiter-name">
+                            Николай
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-item">
+
+                    <div class="slider-item_content">
+                        <div class="slider-item_text">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!!
+                            Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан
+                            своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </div>
+                        <div class="slider-item_img">
+                            <img src="img/visitor-img.png" alt="">
+
+                        </div>
+                        <div class="photo-visiter_text">
+                            Посетитель
+                        </div>
+                        <div class="visiter-name">
+                            Николай
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-title">
+                Галерея <span>Блюд</span>
+            </div>
+
+            <div class="gallery-images">
+                <div class="gallery-items_img">
+
+                    <div class="gallery-img_bg">
+                        <img id="gallery-img_none" src="img/gallery-img_1.png" alt="">
+                        <img id="gallery-img_block" src="img/table-71380_1280 1.png" alt="">
+                    </div>
+
+                    <div class="gallery-item_img">
+                        <img src="img/gallery-img_2.png" alt="">
+                        <img src="img/gallery-img_3.png" alt="">
+                    </div>
+                </div>
+                <div class="gallery-items_img gallery-items--img ">
+
+                    <div class="gallery-img_bg">
+                        <img id="gallery-img_none" src="img/gallery-img_1.png" alt="">
+                        <img id="gallery-img_block" src="img/table-71380_1280 1.png" alt="">
+                    </div>
+
+                    <div class="gallery-item_img">
+                        <img src="img/gallery-img_2.png" alt="">
+                        <img src="img/gallery-img_3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="cook">
+        <div class="container">
+            <div class="cook-title">
+                Наши <span>Повара</span>
+            </div>
+            <div class="cook-images">
+                <img src="img/cook_1.png" alt="">
+                <img src="img/cook_2.png" alt="">
+                <img src="img/cook_3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <h1 class="footer__title">
+            Где находится <span>Наш Ресторан</span>
+        </h1>
+        <div class="container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2722.9284089946377!2d31.9819433!3d46.9630966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c967ed511f1f%3A0xe6b15a947aa96bc0!2zMzNCLCDRg9C7LiDQodC10L3QvdCw0Y8sIDMz0JEsINCd0LjQutC-0LvQsNC10LIsINCd0LjQutC-0LvQsNC10LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDU0MDAw!5e0!3m2!1sru!2sde!4v1671598518768!5m2!1sru!2sde"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__inner">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__content-phone">
+                        <h3 class="footer__content-phone__text">
+                            Позвонить нам
+                        </h3>
+                        +999-888-76-54
+                    </div>
+                    <div class="footer__content-days">
+                        <h3 class="footer__content-days__text">
+                            График работы:
+                        </h3>
+                        ВС-ЧТ - 12:00-00:00<br>
+                        ПТ-СБ - 12:00-05:00
+                    </div>
+                    <div class="footer__content-address">
+                        <h3 class="footer__content-address__text">
+                            Прийти к нам
+                        </h3>
+                        Николаев, Буденного, 33 
+                    </div>
+                    <div class="footer__content-book">
+                        <h3 class="footer__content-book__text">
+                            Забронировать столик
+                        </h3>
+                        <a class="header-phone" href="tel:+9998887654">+999-888-76-54
+                            <div class="contacts-text">
+                                Свяжитесь с нами для
+                                бронирования
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footer__bottom-inner">
+                        <div class="footer__bottom-copy">
+                            © 2022 Наш Ресторан
+                        </div>
+                        <div class="footer__bottom-email">
+                            NashRestoraunt@gmail.com.ua
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/mixItUp.js"></script>
+    <script src="js/numbers.js"></script>
+    <script src="js/countUp.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
